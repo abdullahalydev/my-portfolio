@@ -15,6 +15,6 @@ const data = [
     website: "https://nextjs.org/",
     repositories: "https://github.com/search?q=owner%3Aabdullahalydev+express&type=code"
   },
-]
+];
 
 export default data;

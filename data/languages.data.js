@@ -31,7 +31,6 @@ const languages = [
     website: null,
     repositories: "https://github.com/search?q=owner%3Aabdullahalydev+language%HTML+&type=code"
   }
-
-]
+];
 
 export default languages;

@@ -4,9 +4,9 @@ import SkillComponent from "@/components/skill.component";
 // helpers
 import ColumnHelper from "@/helpers/column.helper";
 
-export default function FrameworksSection({frameworks}) {
+export default function FrameworksSection({ frameworks }) {
   return (
-    <section id="frameworks" className='container mt-5'>
+    <section id='frameworks' className='container mt-5'>
       <div className='mb-3'>
         <h1>Frameworks</h1>
       </div>

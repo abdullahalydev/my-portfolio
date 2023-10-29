@@ -20,19 +20,19 @@ export default function SocialButtonComponent({
         target='_blank'
         className='btn btn-sm btn-primary'
       >
-        <i className={"fa-" + type + " fa-" + icon} /> {name}
+        <i className={`fa-${type} fa-${icon}`} /> {name}
       </a>
     );
   }
 
   return (
     <a
-    onMouseEnter={() => setShow(true)}
+      onMouseEnter={() => setShow(true)}
       href={href}
       target='_blank'
       className='btn btn-sm btn-primary'
     >
-      <i className={"fa-" + type + " fa-" + icon} />
+      <i className={`fa-${type} fa-${icon}`} />
     </a>
   );
 }

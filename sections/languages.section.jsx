@@ -4,9 +4,9 @@ import SkillComponent from "@/components/skill.component";
 // helpers
 import ColumnHelper from "@/helpers/column.helper";
 
-export default function LanguagesSection({languages}) {
+export default function LanguagesSection({ languages }) {
   return (
-    <section id="languages" className='container mt-5'>
+    <section id='languages' className='container mt-5'>
       <div className='mb-3'>
         <h1>Languages</h1>
       </div>

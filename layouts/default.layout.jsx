@@ -8,15 +8,15 @@ import "@/styles/container.style.css";
 import "@/styles/typeography.style.css";
 import "@/styles/font.style.css";
 
-export default function DefaultLayout({children}) {
+export default function DefaultLayout({ children }) {
   return (
     <html lang='en'>
       <body
         lang='en'
-        data-bs-theme="light"
+        data-bs-theme='light'
         style={{
           fontFamily: "Satoshi",
-          minHeight: "100vh"
+          minHeight: "100vh",
         }}
       >
         {children}

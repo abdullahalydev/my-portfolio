@@ -44,4 +44,5 @@ module.exports = {
 		"@next/next/no-document-import-in-page": "off",
 		"react-hooks/rules-of-hooks": "off"
 	},
+	extends: "next/core-web-vitals"
 };

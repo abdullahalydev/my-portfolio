@@ -1,3 +1,6 @@
+// packages
+import Image from "next/image";
+
 // helpers
 import ExpreniceHelper from "@/helpers/exprenice.helper";
 
@@ -13,13 +16,15 @@ export default function SkillComponent({
     <div className='d-flex flex-column bg-body-secondary p-3 rounded h-100'>
       <div className='mb-3'>
         <div className='p-3 rounded d-inline-block bg-primary'>
-          <img
+          <Image
             src={image}
             style={{
               aspectRatio: "1/1",
-              width: "34px",
             }}
-            alt=''
+            width='34'
+            height='34'
+            title={`${title}'s Logo`}
+            alt={`${title}'s Logo`}
           />
         </div>
       </div>
@@ -31,7 +36,9 @@ export default function SkillComponent({
 
       <div className='d-flex mt-auto'>
         <div className='my-auto'>
-          <span className='badge text-bg-primary'>{ExpreniceHelper(learn)}</span>
+          <span className='badge text-bg-primary'>
+            {ExpreniceHelper(learn)}
+          </span>
         </div>
 
         <div className='ms-auto d-flex gap-1'>

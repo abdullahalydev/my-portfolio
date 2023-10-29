@@ -79,6 +79,6 @@ const data = [
     website: "https://git-scm.com/",
     repositories: null
   },
-]
+];
 
 export default data;
