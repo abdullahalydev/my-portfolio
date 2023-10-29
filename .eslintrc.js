@@ -8,7 +8,13 @@ module.exports = {
 		"eslint:recommended",
 		// "standard-with-typescript",
 	],
+	ecmaFeatures: {
+		"modules": true,
+		"spread": true,
+		"restParams": true
+	},
 	parserOptions: {
+		"sourceType": "module",
 		"ecmaVersion": "latest"
 	},
 	plugins: [
@@ -37,5 +43,5 @@ module.exports = {
 		"no-redeclare": "off",
 		"@next/next/no-document-import-in-page": "off",
 		"react-hooks/rules-of-hooks": "off"
-	}
+	},
 };
