@@ -15,7 +15,7 @@ module.exports = {
 	},
 	parserOptions: {
 		"sourceType": "module",
-		"ecmaVersion": "latest"
+		"ecmaVersion": 8
 	},
 	plugins: [
 	],
