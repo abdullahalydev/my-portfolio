@@ -9,28 +9,28 @@ export default function SocialComponent({animation}) {
         icon={"github"}
         name={"Github"}
         animation={!!animation}
-        href={""}
+        href={"https://github.com/abdullahalydev"}
       />
       <SocialButtonComponent
         type={"brands"}
         icon={"twitter"}
         name={"Twitter"}
         animation={!!animation}
-        href={""}
+        href={"https://twitter.com/abdullahalydev"}
       />
       <SocialButtonComponent
         type={"brands"}
         icon={"linkedin"}
         name={"LinkedIn"}
         animation={!!animation}
-        href={""}
+        href={"https://www.linkedin.com/in/abdullah-aly-30854827b/"}
       />
       <SocialButtonComponent
         type={"brands"}
         icon={"npm"}
         name={"Npm"}
         animation={!!animation}
-        href={""}
+        href={"https://www.npmjs.com/settings/0bo_dy/profile"}
       />
       <SocialButtonComponent
         type={"solid"}

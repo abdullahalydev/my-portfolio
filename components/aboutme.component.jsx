@@ -12,7 +12,7 @@ export default function AboutMeComponent() {
           <div className='col-12 col-md-4 col-lg-3'>
             <Image
               className='rounded'
-              src='/profile.png'
+              src='https://gravatar.com/userimage/222049552/7124b467eaf771c5cb07811be2dcfce0.jpeg?size=512'
               width='800'
               height='800'
               title="Abdullah's Logo"
